@@ -1,0 +1,56 @@
+.features{
+  background-image: url('../../../assets/jpg/banner/bg_river1.webp');
+  background-position: right;
+  background-repeat: no-repeat;
+  padding-top:75px;
+  // padding-bottom:75px;
+  min-height:775px;
+  -webkit-transform: translate3d(0,0,0);
+  background-attachment: scroll;
+  background-size: cover;
+}
+.feature-card-img{
+  height:100px;
+  width:100px;
+  background-color:#34495e;
+  // background-color: #116bb5;
+  padding:25px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius:25px;
+}
+.feature-heading{
+  color: #34495E;
+  font-size:1rem;
+  font-weight: bold;
+  line-height: 3em;
+  letter-spacing: 1px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.feature-card{
+  padding-top:30px;
+}
+
+.feature-icon{
+  padding-top:50px;
+  font-size:50px;
+  color:#b6d2dc;
+}
+
+.min-text{
+  font-size: 1rem;
+  font-weight: 500;
+  color: #303030;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.7;
+}
+.feature-description{
+  font-size: 1rem;
+  font-weight: 400;
+  color: #303030;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 1.7;
+}

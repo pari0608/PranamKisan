@@ -1,0 +1,151 @@
+.login_header{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500 !important;
+ color: #000000 !important;
+ font-size: 16px !important;
+ letter-spacing: 1px !important;
+
+}
+.forget{
+  display: block !important;
+  text-align: end !important;
+}
+.input_header{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300 !important;
+ color: #000000 !important;
+ font-size: 12px !important;
+ letter-spacing: 2px !important;
+
+}
+.loginbtn_size{
+  width: 196px !important;
+}
+
+input{
+  width: 308px;
+height: 50px;
+}
+
+.login{
+  width: 200px !important;
+  height: 50px !important;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500 !important;
+ background-color: #1C3764 !important;
+}
+.login_btn{
+  display: flex !important;
+  justify-content: center !important;
+}
+#loginModal{
+  .modal-content{
+    padding:50px !important;
+    width: 416px !important;
+    height: 436px !important;
+    border-radius: 25px !important;
+
+  }
+  .modal-header{
+    padding:0px !important;
+    // padding-top:-50px !important;
+    border: none;
+    height: 86px;
+  }
+  .modal-body{
+      padding:0px !important;
+      // padding-top:20px !important;
+  }
+  .modal-dialog-centered{
+    width: inherit !important;
+    width: 416px !important;
+  }
+  .modal-footer{
+    border:none !important;
+    padding: 0px !important;
+    margin-top: 20px;
+  }
+}
+// .navbar{
+//   position: fixed !important;
+//   background-image: url(../../../assets/scalable-vector-graphics/banner_header2.svg);
+//    background-repeat: no-repeat;
+//   background-position: right;
+//   height:100px !important;
+// }
+
+.logo{
+  cursor: pointer;
+  width: 120px;
+  margin-left: 80px;
+  margin-top: 20.5px;
+  margin-bottom: 20.5px;
+}
+
+.example-fill-remaining-space {
+  /* This fills the remaining space, by using flexbox.
+     Every toolbar row uses a flexbox row layout. */
+  flex: 1 1 auto;
+  text-align: right;
+}
+
+.heading{
+  cursor:pointer !important;
+  font-size:0.9rem !important;
+  color: gray;
+  font-weight: 500;
+  padding: 20px;
+  text-transform: capitalize !important;
+  letter-spacing: 1px;
+}
+.router-link-active{
+   color:#303030;
+  font-weight:bold;
+}
+.dropdown-item:hover{
+  background-color: #f7f7f7 !important;
+  box-shadow: none !important;
+}
+
+// .parallax-custom{
+//   background-image: url('../../../assets/jpg/parallax_3.jpg');
+//   background-attachment: fixed;
+//   height: 1200px;
+// }
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+
+}
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) {
+
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) {
+
+ }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) {
+  .menu-dd{
+    height:500px !important;
+  }
+ }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199px) {
+
+ }
+ .line-header{
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1.875% solid #E1E1E1;
+}
